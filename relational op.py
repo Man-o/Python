@@ -1,0 +1,10 @@
+print(True>=1)
+print(ord('p'))
+print(ord('q'))
+print(ord('r'))
+print('pqr'>'rpq')
+print('pqr'>'rpq' or 'pqr'>='prq')
+print([4,3]>[5,3])
+print(['sam']>['jam'])
+print({'jam'}>{'saa'})
+      

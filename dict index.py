@@ -1,0 +1,20 @@
+a={'a':{'b':[44,66,99,{'c':(False,True,'Hello'),'H':'Good Bye'},'SQL'],'P':(420,840)}}
+print(a['a']['b'][0])
+print(a['a']['b'][1])
+print(a['a']['b'][2])
+print(a['a']['b'][3])
+print(a['a']['b'][3]['c'][0])
+print(a['a']['b'][3]['c'][1])
+print(a['a']['b'][3]['c'][2])
+print(a['a']['b'][3]['c'][2][0])
+print(a['a']['b'][3]['c'][2][1])
+print(a['a']['b'][3]['c'][2][2])
+print(a['a']['b'][3]['c'][2][3])
+print(a['a']['b'][3]['c'][2][4])
+print(a['a']['b'][4])
+print(a['a']['b'][4][0])
+print(a['a']['b'][4][1])
+print(a['a']['b'][4][2])
+print(a['a']['b'][3]['H'])
+
+
