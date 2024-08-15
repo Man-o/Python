@@ -23,6 +23,25 @@ if len(m1)==len(m2) and len(m1[0])==len(m2[0]):
             line.append(m1[r][c]+m2[r][c])
         newMat.append(line)
 print(newMat)'''
+
+#multiply 2 matrixes
+'''m1=[[1, 2], [3, 4]]
+m2=[[5, 6], [7, 8]]
+if len(m1[0])==len(m2):
+    mprod=[]
+    for r in range(len(m1)):
+        line=[]
+        for c in range(len(m2[0])):
+            ans=0
+            for v in range (len(m2)):
+                ans+=m1[r][v]*m2[v][c]
+            line.append(ans)
+        mprod.append(line)
+    print(mprod)
+else:
+    ('Multiplication not possible')
+print(len(m2))'''
+
     
 
 
