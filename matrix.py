@@ -39,8 +39,8 @@ if len(m1[0])==len(m2):
         mprod.append(line)
     print(mprod)
 else:
-    ('Multiplication not possible')
-print(len(m2))'''
+    ('Multiplication not possible')'''
+
 
     
 

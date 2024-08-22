@@ -756,10 +756,11 @@ for i in d2.items():
         d[i[0]]+=d[i[1]]
 print(d)'''
 
-s='hello'
+
 
 #all the substring in given string
-'''for sv in range(len(s)):
+'''s='hello'
+for sv in range(len(s)):
     for ev in range(sv+1,len(s)+1):
         print(s[sv:ev])'''
 
@@ -772,7 +773,7 @@ for i in s:
 print(count)'''
 
 #pramid
-num=7
+'''num=7
 spaces=num//3
 stars=1
 for lines in range(num):
@@ -786,7 +787,7 @@ for lines in range(num):
         stars+=2
     else:
         spaces+=1
-        stars-=2
+        stars-=2'''
         
         
         
